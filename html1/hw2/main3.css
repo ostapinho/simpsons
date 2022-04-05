@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+}
+.whitebox{
+    height: 500px;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.card1  {
+    width: 300px;
+    height: 350px;
+    background: white;
+    border-style: outset;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 70px;
+    box-sizing: border-box;
+}
+.h1 {
+    color: red;
+    font-size: 10px;
+    text-align: center;
+}
+.p1 {
+    color: silver;
+    text-align: center;
+
+}
+.txt {
+ text-align: center;
+    width: 200px;
+    height: 40px;
+    border-style: solid;
+    margin-left:25px;
+}
