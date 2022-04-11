@@ -1,0 +1,56 @@
+.container{
+    width: 100%;
+    min-height: 600px;
+}
+.a{
+    width: 100%;
+    height: 100px;
+    background: black;
+}
+.global{
+    display: flex;
+}
+.twobox{
+    width: 75%;
+    height: 500px;
+}
+.bcd{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.b, .c, .d{
+    width: 50%;
+    background: aqua;
+    height: 100%;
+    border: solid;
+}
+.efg{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.e, .f, .g{
+    width: 50%;
+    background: darkblue;
+    height: 100%;
+    border: solid;
+}
+.h{
+    width: 25%;
+    height: 500px;
+    background: orange;
+}
+@media screen and(min-width: 0) and (max-width: 1400px) {
+    .global{
+        flex-direction: column;
+    }
+    .twobox{
+        width: 100%;
+        height: 600px;
+    }
+    .h{
+        width: 100%;
+        height: 100px;
+    }
+}
