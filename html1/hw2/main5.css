@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    background: silver;
+}
+.wrap   {
+    height: 120px;
+    width: 100%;
+    background: silver;
+}
+.into   {
+    height: 330px;
+    width: 100%;
+    background: darkblue;
+    border-radius: 2%;
+}
+.boxes  {
+    display: flex;
+    top: -50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.box    {
+    width: 100px;
+    height: 100px;
+    background: cornflowerblue;
+    border-radius: 5%;
+
+}
+
+.card   {
+    height: 230px;
+    width: 100%;
+    background: silver;
+}
