@@ -1,166 +1,78 @@
+// // - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
+// let a1 = 'hello';
+// let a2 = 'owu';
+// let a3 = 'com';
+// let a4 = 'ua';
+// let a5 = '1';
+// let a6 = '10';
+// let a7 = '-999';
+// let a8 = '123';
+// let a9 = '3.14';
+// let a10 = '2.7';
+// let a11 = '16';
+// let a12 = 'true';
+// let a13 = 'false';
+// console.log(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13);
+
+//     Вивести кожну змінну за допомогою: console.log , alert, document.write
+// console.log('hello okten');
 // alert('hello okten')
-// document.write('hello')
+// document.write('<h1>Hello Okten</h1>')
 
-// let a;
-// a = 'Hello World!'
-    // console.log(a);
 
-// var a;
-// a = 'hellooktn';
-// console.log(a)
-
-// const a = 'hello'
-// console.log(a)
-
-// let a = 'open';// STRING
-
-// let bool1 = 5 > 6;
-// console.log(bool1)
-
-// let fruits = ['apple','orange','1','ok']; // МАСИВ
-// console.log(fruits)
-// console.log(fruits[1]) // orange
-
-// let user1 = {
-//     name: 'vasya',
-//     age: 31,
-//     status: true
-// };
-// console.log(user1)
-// console.log(user1.name) // vasya
+// - Створити об'єкт book з наступними полями :
+// назва, (тип string)
+// кількість сторінок (числовий тип),
+// жанр (string)
 //
-// let user2 = {
-//     name: 'petya',
-//     age: 18,
-//     status: true
-// }
-// console.log(user2)
-// console.log(user2.age)
+// let book = {name:'top gear',pages:'235',genre:'comedia'}
+// console.log(book);
+
+
+// - Створити об'єкт book з наступними полями :
+// назва, (тип string)
+// кількість сторінок (числовий тип),
+// жанр (string)
+// автори (тип - масив, кожен елемент масиву - це стрінга)
 //
-// let imya = 'anton'
-// let user3 = {
-//     name: imya,
-// }
-// console.log(user3)
-
-alert('hello')
-document.write('hello')
-let a;
-a = 'hello'
-console.log(a)
-
-alert('owu')
-document.write('owu')
-let b;
-b = 'owu'
-console.log(b)
-
-alert('com')
-document.write('com')
-let c;
-c = 'com'
-console.log(c)
-
-
-alert('ua')
-document.write('ua')
-let d;
-d = 'ua'
-console.log(d)
-
-
-alert('1')
-document.write('1')
-let e;
-e = '1'
-console.log(e)
-
-alert('10')
-document.write('10')
-let q;
-q = '10'
-console.log(q)
-
-
-alert('-999')
-document.write('-999')
-let w;
-w = '-999'
-console.log(w)
-
-alert('123')
-document.write('123')
-let r;
-r = '123'
-console.log(r)
-
-
-alert('3.14')
-document.write('3.14')
-let t;
-t = '3.14'
-console.log(t)
-
-
-alert('2.7')
-document.write('2.7')
-let y;
-y = '2.7'
-console.log(y)
-
-
-alert('16')
-document.write('16')
-let u;
-u = '16'
-console.log(u)
-
-
-alert('true')
-document.write('true')
-let i;
-i = 'true'
-console.log(i)
-
-
-alert('falce')
-document.write('falce')
-let o;
-o = 'falce'
-console.log(o)
-
-
-let book = {
-    name: 'top gear',
-    page: 220,
-    genre: 'comedia'
-}
-console.log(book)
-
-let book1 = {
-    name: 'hello world',
-    page: 321,
-    genre: 'comedia',
-    authors: ['nazar', 'andriy', 'oleh', 'stepan']
-}
-console.log(book1)
-
-
-let firstName = 'Ostap'
-let middleName = 'Orestovych'
-let lastName = 'Vikovych'
-console.log(firstName + ' ' + middleName + ' ' + lastName)
+// let book = {name:'gear top',pages:'228',genre:'comedia',authors:['oleh','orko','slavik']}
+// console.log(book);
+// console.log(book.authors);
 
 
 
-
-let books = {
-    name: 'Hello Okten',
-    pages: '234',
-    genre: 'comedia'
-    // authors: ['Oleh','Anton','Andryi']
-}
-
-
+// - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person (Не об'єкт, просто за допомоги конкатенації)
+//  
+// let fn = 'ostap '
+// let mn = 'orestovych '
+// let ln = ' vikovych'
+// let person = (fn + mn + ln)
+// console.log(person);
 
 
+// - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в консоль
+//
+// let fn = prompt('what is your first name?')
+// let md = prompt('middle name?')
+// let age = prompt('age?')
+// console.log(`${fn} ${md} ${age}`);
+
+// - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+//     let a = 100; let b = '100'; let c = true;
+//
+// let a = 100
+// console.log(typeof a);
+// let b = '100'
+// console.log(typeof b);
+// let c = true
+// console.log(typeof c);
+// // - Створити масив об'єктів з назвою books з наступними полями  - назва, кількість сторінок, жанр, автори. Вивести кожну книгу як окремий об'єкт
+
+// let books = [
+//     {name:'top gear',pages:'228',genre:'comedia',authors:['oleh','max','ivan']},
+//     {name:'top gear1',pages:'228',genre:'comedia',authors:['oleh','max','ivan']},
+//     {name:'top gear2',pages:'228',genre:'comedia',authors:['oleh','max','ivan']}
+// ];
+// console.log(books[0]);
+// console.log(books[1]);
+// console.log(books[2]);
